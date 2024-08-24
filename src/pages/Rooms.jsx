@@ -16,7 +16,7 @@ export default function RoomsList() {
     };
 
     useEffect(() => {
-        axios.get('http://localhost:3000/api/ViewRoom')
+        axios.get('https://acoustic-elastic-wildflower.glitch.me/api/ViewRoom')
             .then(response => {
                 console.log('Rooms Data:', response.data);
                 setRooms(response.data);
@@ -50,7 +50,6 @@ export default function RoomsList() {
         fetchImages();
     }, [query]);
 
-    // Filter rooms based on status
     const availableRooms = rooms.filter(room => room.Status === 'Available');
 
     return (

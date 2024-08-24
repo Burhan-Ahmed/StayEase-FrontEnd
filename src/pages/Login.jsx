@@ -5,16 +5,14 @@ export default function LoginPage() {
     const url = 'http://localhost:3000';
     const navigate = useNavigate();
 
-    // Initialize formData with isAdmin
     const [formData, setFormData] = useState({
         email: "",
         password: "",
-        isAdmin: false // Default value for isAdmin
+        isAdmin: false 
     });
 
     const [loading, setLoading] = useState(false);
 
-    // Handle input changes
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
         setFormData(prevFormData => ({
@@ -92,7 +90,7 @@ export default function LoginPage() {
                             name="isAdmin"
                             id="isAdmin"
                             className='form-checkbox'
-                            checked={formData.isAdmin} // Set checkbox state
+                            checked={formData.isAdmin} 
                             onChange={handleChange}
                         />
                         <label htmlFor="isAdmin" className='text-gray-700'>Admin Login</label>
