@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 export default function LoginPage() {
-    const url = 'http://localhost:3000';
+    const url = 'https://acoustic-elastic-wildflower.glitch.me';
     const navigate = useNavigate();
 
     const [formData, setFormData] = useState({

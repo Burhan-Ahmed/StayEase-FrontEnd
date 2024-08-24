@@ -9,7 +9,7 @@ const ManageEmployees = () => {
   useEffect(() => {
     const fetchEmployees = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/employees');
+        const response = await axios.get('https://acoustic-elastic-wildflower.glitch.me/employees');
         console.log('Response:', response.data);
         setEmployees(response.data.employees);
         setLoading(false);

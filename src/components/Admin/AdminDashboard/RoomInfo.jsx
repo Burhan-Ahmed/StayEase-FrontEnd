@@ -9,7 +9,7 @@ const RoomInformation = () => {
     useEffect(() => {
         const fetchRooms = async () => {
             try {
-                const response = await axios.get('http://localhost:3000/rooms');
+                const response = await axios.get('https://acoustic-elastic-wildflower.glitch.me/rooms');
                 console.log('Response:', response.data);
                 setRooms(response.data.rooms);
                 setLoading(false);
