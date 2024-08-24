@@ -77,7 +77,7 @@ export default function PayStrip() {
                 toast.success('Payment Successful!');
             }
         } catch (error) {
-            console.error('Payment error:', error); 
+            console.error('Payment error:', error);
             toast.error('An unexpected error occurred.');
         } finally {
             setLoading(false);
