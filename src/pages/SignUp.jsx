@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 export default function SignUp() {
 
-    const url = 'https://acoustic-elastic-wildflower.glitch.me'
+    const url = 'https://marsh-enchanting-split.glitch.me'
 
     const navigate = useNavigate();
 
