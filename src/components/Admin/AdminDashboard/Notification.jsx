@@ -9,7 +9,7 @@ const ReviewsNotifications = () => {
     useEffect(() => {
         const fetchMessages = async () => {
             try {
-                const response = await axios.get('https://acoustic-elastic-wildflower.glitch.me/message/viewmessages');
+                const response = await axios.get('https://coordinated-abalone-bayberry.glitch.me/message/viewmessages');
                 console.log('Response:', response.data);
                 setMessages(response.data.messages);
                 setLoading(false);
