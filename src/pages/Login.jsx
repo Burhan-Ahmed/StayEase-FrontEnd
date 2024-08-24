@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 export default function LoginPage() {
-    const url = 'https://marsh-enchanting-split.glitch.me';
+    const url = 'https://coordinated-abalone-bayberry.glitch.me';
     const navigate = useNavigate();
 
     const [formData, setFormData] = useState({
         email: "",
         password: "",
-        isAdmin: false 
+        isAdmin: false
     });
 
     const [loading, setLoading] = useState(false);
@@ -90,7 +90,7 @@ export default function LoginPage() {
                             name="isAdmin"
                             id="isAdmin"
                             className='form-checkbox'
-                            checked={formData.isAdmin} 
+                            checked={formData.isAdmin}
                             onChange={handleChange}
                         />
                         <label htmlFor="isAdmin" className='text-gray-700'>Admin Login</label>

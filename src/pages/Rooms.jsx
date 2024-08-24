@@ -16,7 +16,7 @@ export default function RoomsList() {
     };
 
     useEffect(() => {
-        axios.get('https://marsh-enchanting-split.glitch.me/api/ViewRoom')
+        axios.get('https://coordinated-abalone-bayberry.glitch.me/api/ViewRoom')
             .then(response => {
                 console.log('Rooms Data:', response.data);
                 setRooms(response.data);

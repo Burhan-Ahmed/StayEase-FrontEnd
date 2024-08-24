@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 export default function SignUp() {
 
-    const url = 'https://marsh-enchanting-split.glitch.me'
+    const url = 'https://coordinated-abalone-bayberry.glitch.me'
 
     const navigate = useNavigate();
 
@@ -17,7 +17,7 @@ export default function SignUp() {
         setFormData({ ...formData, [e.target.name]: e.target.value })
     }
 
-    const setFormNull = ()=>{
+    const setFormNull = () => {
         setFormData({
             name: "", email: "", password: "", phoneNumber: "", cnic: ""
         })
