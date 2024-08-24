@@ -50,7 +50,7 @@ export default function PayStrip() {
                 return;
             }
 
-            const response = await fetch('https://acoustic-elastic-wildflower.glitch.me/pay', {
+            const response = await fetch('https://coordinated-abalone-bayberry.glitch.me/pay', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ paymentMethodId: paymentMethod.id }),

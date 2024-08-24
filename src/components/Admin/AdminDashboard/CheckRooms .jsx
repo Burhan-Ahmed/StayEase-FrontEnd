@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const RegisterRoom = () => {
-  const url = 'https://acoustic-elastic-wildflower.glitch.me';
+  const url = 'https://coordinated-abalone-bayberry.glitch.me';
   const [formData, setFormData] = useState({
     roomtype: '',
     servantName: '',
