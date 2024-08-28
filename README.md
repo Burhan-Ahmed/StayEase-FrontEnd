@@ -1,5 +1,5 @@
 # CaseStudy
-A Full fledged Website as Final Project as my Last Internship Task
+A Full-fledged Website as a Final Project for Internship
 
 ![alt text](src/assets/home.png)
 
