@@ -1,7 +1,7 @@
 # CaseStudy
 A Full-fledged Website as a Final Project for Internship
 
-![alt text](src/assets/home.png)
+![alt text](src/assets/home.PNG)
 
 
 # Backend of Website
